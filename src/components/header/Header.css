@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container-header {
+    align-items: center; 
+    background: lightgreen;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 15px;
+}
+
+.container-header_subContainer{
+    background: lightseagreen;
+    outline: 1px solid black;
+    width: 30%;    
+}
+
+.container-header_subContainer p{
+    margin: 2px 0px;
+    outline: 1px solid blue;
+}
+
+.container-header_contentDer{
+    text-align: right;
+}
+.container-header_contentIzq{
+    text-align: left;
+}

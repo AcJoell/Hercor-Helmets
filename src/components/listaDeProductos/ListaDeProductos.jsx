@@ -2,7 +2,7 @@ import React from "react";
 import "./listaDeProductos.css";
 
 export const ListaDeProductos = () => {
-  return <p>lista de productos</p>;
+  return <p>Ejemplo</p>
 };
 
 export default ListaDeProductos;
