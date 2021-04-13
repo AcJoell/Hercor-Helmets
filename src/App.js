@@ -1,5 +1,11 @@
+import { ListaDeProductos } from "./components/listaDeProductos/ListaDeProductos";
+
 function App() {
-  return <div className="App">Hello react with Joel and andrés</div>;
+  return (
+    <div className="App">
+      <ListaDeProductos />
+    </div>
+  );
 }
 
 export default App;
