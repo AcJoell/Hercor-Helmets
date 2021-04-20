@@ -1,24 +1,26 @@
-import React from 'react';
+import React from "react";
 import "./Header.css";
+import Logo from "../assets/logo2.png";
 
 export const Header = () => {
-    return <div id="container-header">
-        <div className="container-header_subContainer">
-            <div className="container-header_contentIzq">
-                <p>facebook</p>
-                <p>instagram</p>
-            </div>
-        </div>
-        <div className="container-header_subContainer">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum sint ducimus enim architecto vel ut temporibus molestiae error incidunt tempora, exercitationem!</p>
-        </div>
-        <div className="container-header_subContainer">
-            <div className="container-header_contentDer">
-                <p>3332221100 | 3332221100</p>
-                <p>hercorHelmets</p>
-            </div>
-        </div>
-    </div>;
+  return (
+    <div id="container-header">
+      <div className="container-header_logo">
+        <img src={Logo} width="165px" height="140px" />
+      </div>
+      <div>
+        <nav className="container-header_nav">
+          <ul className="container-menu">
+            <li className="container-menu_item">Tapas</li>
+            <li className="container-menu_item">Sistemas</li>
+            <li className="container-menu_item">Visores</li>
+            <li className="container-menu_item">Tornillos</li>
+            <li className="container-menu_item">Respuestos</li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  );
 };
 
 export default Header;
