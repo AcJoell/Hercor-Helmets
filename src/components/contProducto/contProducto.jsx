@@ -1,12 +1,12 @@
 import React from "react";
 import "./contProducto.css";
 
-export const ContProducto = () => {
+const ContProducto = ({title}) => {
   return (
     <div className="container-item-img">
       <p>container-item-img</p>
       <div className="container-item-title">
-        <p>Title</p>
+        <p>{Title}</p>
       </div>
     </div>
   );

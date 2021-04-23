@@ -1,15 +1,17 @@
 import React from "react";
-import "./contCategoria.css";
+import styles from "./contCategoria.module.css";
+import Product from "../contProducto/contProducto.jsx";
 
-export const ContCategoria = () => {
+const ContCategoria = () => {
   return (
-    <div className="container_categoria">
-      <div className="container_categoria-title">
+    <div className={styles.container_categoria}>
+      <div className={styles.container_categoria-title}>
         <p>container_categoria-title</p>
       </div>
-      <div className="container_categoria-lista">
+      <div className={styles.container_categoria-lista}>
         <p>container_categoria-lista</p>
-        <div className="container-item"></div>
+        <div className={styles.container-item}></div>
+        <Product title="Mi titulo"/>
       </div>
     </div>
   );
