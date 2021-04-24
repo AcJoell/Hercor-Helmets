@@ -1,0 +1,35 @@
+
+
+// our variables
+:root {
+ --background-1: #242324;
+ --background-2: #FEFEFE;
+ --background-3: #F4F6F9;
+ --brand-1: #D72323;
+ --grey-1: #818181;
+ --grey-2: #242324;
+}
+
+
+// reset default browser styles
+body,
+html,
+#app,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+
+body {
+ background: var(--background-1) ;
+ font-family: sans-serif;
+}
+
+
+

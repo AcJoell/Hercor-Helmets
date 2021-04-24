@@ -1,25 +1,29 @@
 import React from "react";
-import "./Header.css";
-import Logo from "../assets/logo2.png";
+import Logo from "../../assets/image/LogoHercor.png";
+import "./header.scss";
 
 export const Header = () => {
   return (
-    <div id="container-header">
-      <div className="container-header_logo">
-        <img src={Logo} width="165px" height="140px" />
+    <header className="header">
+      <div className="Logocontainer">
+        <img src={Logo} alt="logo" />
       </div>
-      <div>
-        <nav className="container-header_nav">
-          <ul className="container-menu">
-            <li className="container-menu_item">Tapas</li>
-            <li className="container-menu_item">Sistemas</li>
-            <li className="container-menu_item">Visores</li>
-            <li className="container-menu_item">Tornillos</li>
-            <li className="container-menu_item">Respuestos</li>
-          </ul>
-        </nav>
+
+      <div className="searchBar">
+        <i class="fas fa-search"></i>
+        <input type="text" placeholder="Buscar ..." />
       </div>
-    </div>
+
+      <nav>
+        <ul className="navbarList">
+          <li>Tapas</li>
+          <li>Sistemas</li>
+          <li>Visores</li>
+          <li>Tornillos</li>
+          <li>Repuestos</li>
+        </ul>
+      </nav>
+    </header>
   );
 };
 
